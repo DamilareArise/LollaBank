@@ -140,8 +140,10 @@ header{
     color: #081f89ff;
     gap: 10px;
     z-index: 0;
-
+    text-decoration: none !important;
+    
 }
+
 
 .banner2_card:hover{
     background-color: #081f89ff;
@@ -152,6 +154,74 @@ header{
 }
 
 .AboutUs {
+    height: 60vh;
+    margin-top: -100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    
+}
+
+.AboutUs_box{
+    height: 45vh;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    padding: 10px; 
+}
+
+
+.AboutUs_img1{
+    width: 250px; 
+    height: 250px;
+    
+}
+
+.AboutUs_img2{
+    width: 250px; 
+    height: 270px;
+    position: relative;
+    top: 60px;
+    left: -40px;
+    
+}
+
+.AboutUs_info1{
+    position: absolute;
+    left: 300px;
+    height: 50px;
+    width: 90px;
+    background-color: #081f89ff; 
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.AboutUs_info2{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    background-color: #081f89ff;
+    left: -170px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.AboutUs_btn{
+    background-color: #081f89ff;
+    width: 70px;
+    color: white;
+    transition: width 0.5s ease;
+}
+
+.AboutUs_btn:hover{
+    border: 1px solid #081f89ff;
+    color: black;
+    width: 100px;
+    
+}
+
+.services{
     height: 60vh;
 }
 
@@ -240,6 +310,22 @@ header{
         height: 15vh;
         width: 40vw;
     }
+
+    .AboutUs {
+        height: auto;
+        margin-top: -180px;
+        flex-direction: column;
+    }
+    
+    .AboutUs_box{
+        height: 50vh;
+        width: 70vw;
+        padding: 10px; 
+    }
+
+    .AboutUs_box:nth-child(1){
+        padding-top: 50px;
+    }
     
 }
 
@@ -321,5 +407,48 @@ header{
         width: 40vw;
         font-size: 0.6rem;
     }
+
+    .AboutUs {
+        height: auto;
+        margin-top: -170px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    
+    .AboutUs_box{
+        height: 45vh;
+        width: 100vw;
+        padding: 20px; 
+    }
+    
+    .AboutUs_box:nth-child(1){
+        padding: 70px;
+    }
+    
+    .AboutUs_img1{
+        width: 150px; 
+        height: 150px;
+        
+    }
+    
+    .AboutUs_img2{
+        width: 150px; 
+        height: 170px;
+        top: 60px;
+        left: -40px;
+        
+    }
+    
+    .AboutUs_info1{
+        left: 200px;
+    }
+    
+    .AboutUs_info2{
+        left: -150px;
+    }
+
 }
 

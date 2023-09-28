@@ -6,7 +6,7 @@
     <title>Home</title>
 
     <link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.css" />
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="lolla.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
@@ -60,8 +60,8 @@
             <div class="navbar-nav">
               <a class="nav-link home" href="#">Home</a>
               <a class="nav-link" href="#">Loans</a>
-              <a class="nav-link" href="#">About Us</a>
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#AboutUs">About Us</a>
+              <a class="nav-link" href="#services">Services</a>
               <a class="nav-link" href="#">Pages</a>
               <a class="nav-link" href="#">Blog</a>
 
@@ -127,10 +127,55 @@
 
     <!-- AboutUs -->
 
-    <section class="AboutUs border border-primary">
+    <section class="AboutUs" id="AboutUs">
+      <div class="AboutUs_box">
+        <div class="" data-aos="fade-right">
+          <div class="AboutUs_info1 text-light" data-aos="fade-up-left">899+ <br> projects</div>
+          <img src="./images/finance-4858797_640.jpg" alt="" class="AboutUs_img1">  
+        </div>
+        <div data-aos="fade-left">
+          <img src="./images/father-4730585_1280.jpg" alt="" class="AboutUs_img2">
+          <div class="AboutUs_info2 text-light" data-aos="fade-up-right">100 <br> Awards</div>
+        </div>
+      </div>
+      <div class="AboutUs_box d-block" data-aos="flip-right">
+        <span style="color: #081f89ff;" class="fw-bold">
+          <i class="fa-solid fa-bars-staggered"></i>
+          <span>About Us</span>
+        </span>
+        <div class="my-2">
+          <span class="fw-bold fs-3">Not Fast Decision But <br> Good <span style="color: #081f89ff;">Decision</span> Fast</span>
+        </div>
+        <div>
+          <span style="color: #081f89ff;">
+            <i class="fa-solid fa-bullseye fa-lg"></i>
+            <span class="fw-bold">Our Goals</span>
+          </span>
+          <div class="m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime praesentium esse, neque dolorem error quae ullam ea est molestiae!</div>
+        </div>
+        <div>
+          <span style="color: #081f89ff;">
+            <i class="fa-solid fa-braille fa-lg"></i>
+            <span class="fw-bold">Our Vision</span>
+          </span>
+          <div class="m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime praesentium esse, neque dolorem error quae ullam ea est molestiae!</div>
+        </div>
 
+        <button class="btn AboutUs_btn">More</button>
+        
+      </div>
     </section>
 
+    <!-- End of AboutUs -->
+
+    <!-- Services -->
+    <section class="services border border-primary" id="services">
+
+    </section>
+    <!-- End of Services -->
+
+
+    <!-- javascript -->
     <script src="./bootstrap-5.3.0-dist/js/bootstrap.js"></script>
     <script
       src="https://kit.fontawesome.com/151670151e.js"
