@@ -21,7 +21,7 @@ header{
 }
 
 .first_nav{
-    width: 70vw;
+    width: 80vw;
     height: 7vh;
     display: flex;
     justify-content: space-between;
@@ -38,7 +38,7 @@ header{
 }
 
 .navbar{
-    width: 70vw;
+    width: 80vw;
     height: 8vh;
 }
 
@@ -48,7 +48,7 @@ header{
 }
 
 .nav-link{
-    font-weight: 600;
+    /* font-weight: 600; */
     margin-left: 15px;
 }
 
@@ -63,11 +63,11 @@ header{
 }
 
 .home{
-    margin-left: 80px;
+    margin-left: 190px;
 }
 
 .apply_now{
-    margin-left: 100px;
+    margin-left: 280px;
 }
 
 .apply_now:hover{
