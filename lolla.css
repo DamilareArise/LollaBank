@@ -50,7 +50,7 @@ header{
 .nav-link{
     font-weight: 600;
     margin-left: 15px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .nav-link:hover{
@@ -64,11 +64,11 @@ header{
 }
 
 .home{
-    margin-left: 190px;
+    margin-left: 150px;
 }
 
 .apply_now{
-    margin-left: 280px;
+    margin-left: 200px;
 }
 
 .apply_now:hover{
@@ -93,7 +93,6 @@ header{
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items:center ;
     justify-content: right;
 }
 
