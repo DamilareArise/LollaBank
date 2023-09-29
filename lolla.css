@@ -30,10 +30,11 @@ header{
 }
 
 .inside_first_nav{
-    width: 20vw;
+    width: 300px;
     display: flex;
     align-items: center;
     font-size: 0.8rem;
+    
 }
 
 .navbar{
@@ -48,7 +49,7 @@ header{
 
 .nav-link{
     font-weight: 600;
-    margin-left: 1em;
+    margin-left: 15px;
 }
 
 .nav-link:hover{
@@ -62,11 +63,11 @@ header{
 }
 
 .home{
-    margin-left: 9em;
+    margin-left: 80px;
 }
 
 .apply_now{
-    margin-left: 10em;
+    margin-left: 100px;
 }
 
 .apply_now:hover{
@@ -227,24 +228,24 @@ header{
 
 /* Responsiveness */
 
-@media (min-width: 1024px) and (max-width: 1280px){
+@media (min-width: 992px) and (max-width:  1200px){
     .first_nav{
-        width: 100vw;
+        width: 90vw;
     }
     .inside_first_nav{
         width: 30vw; 
     }
     
     .navbar{
-        width: 100vw;
+        width: 90vw;
     }
 
     .apply_now{
-        margin-left: 18em;
+        margin-left: 8em;
     }
 
     .home{
-        margin-left: 14em;
+        margin-left: 5em;
     }
 
     .banner_box{
@@ -253,7 +254,7 @@ header{
    
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media screen and (max-width: 768px){
     .first_nav{
         width: 100vw;
     }
@@ -330,7 +331,7 @@ header{
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
 
     header{
         height: 10vh;
