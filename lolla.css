@@ -16,7 +16,7 @@ header{
     justify-content: center;
     align-items: center;
     box-shadow: 2px;
-    z-index: 1;
+    z-index: 10;
     
 }
 
@@ -60,7 +60,7 @@ header{
 }
 
 .nav-link:active{
-    color: #081f89ff;
+    color: #081f89ff !important;
 }
 
 .home{
@@ -77,6 +77,7 @@ header{
     border: 1px solid #081f89ff;
     color: inherit !important;
 }
+
 
 .inside_first_nav_link{
     text-decoration: none;
@@ -180,16 +181,18 @@ header{
 
 .AboutUs_img1{
     width: 250px; 
-    height: 250px;
+    height: 230px;
+    border-radius: 5PX;
     
 }
 
 .AboutUs_img2{
-    width: 250px; 
+    width: 200px; 
     height: 270px;
     position: relative;
     top: 60px;
     left: -40px;
+    border-radius: 5PX;
     
 }
 
@@ -276,6 +279,7 @@ header{
              0.3em 0.3em 1em rgba(0,0,0,0.3);
     color: white !important;
     border-radius: 15px;
+    
 }
 
 ._box_div2_card_icon{
@@ -310,7 +314,7 @@ header{
 .Book_now{
     color: white;
     background-color: #081f89ff;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 .pricing_box_div2_card:hover{ 
@@ -318,22 +322,155 @@ header{
     background-color: #081f89ff;
     color: white;  
     transform: scale(1.1, 1.1) !important;
-    z-index: 3;
+    z-index: 1;
 }
 
-.Book_now:hover {
+.pricing_box_div2_card:hover .Book_now {
     background-color: white;
     color: black;
 }
 
+.news_card{
+    padding: 0px;
+    gap: 15px;
+}
 
+.news_card:hover{
+    background-color: #081f89ff;
+    color: white;  
+    transform: none !important;
+    
+}
 
+.read_more{
+    width: 100px;
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    margin-bottom: 20px !important;
 
+}
 
+.form{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form_div1{
+    width: 550px ;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_div2{
+    width: 50px;
+    height: 50vh;
+    background-color: whitesmoke;
+}
+
+.form_img{
+    height: 42vh;
+    width: 240px;
+    position: absolute;
+    top: 23px;
+    left: 800px;
+
+}
+
+.play{
+    width: 60px;
+    background-color: #081f89ff;
+    color:  white ; 
+    position: absolute;
+    top: 230px;
+    left: 970px;
+    transition: width 0.5s ease;
+    text-decoration: none;
+}
+
+.play:hover{
+    width: 62px;
+    background-color: white;
+    color: #081f89ff;
+}
+
+.form_sub_div{
+    height: 250px;
+    width: 400px;
+    font-size: 0.8rem;
+}
+
+.form-control1{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 0.8rem;
+    border-bottom: 1px solid !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    padding-bottom:5px ;
+}
+
+.form-control1:hover{
+    color: #081f89ff;
+}
+
+.submit{
+  background-color: #081f89ff;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.submit:hover{
+    border:1px solid #081f89ff !important;
+}
+
+.footer{
+    height: auto;
+    background-color: #081f89ff;
+    justify-content: space-around;
+    
+}
+
+.footer2{
+    height: auto;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 0.75rem;
+    margin: 30px 0;
+    
+}
+
+li a{
+    text-decoration:  none;
+    color: white;
+}
+
+.app{
+    width: 250px;
+    font-size: 0.75rem;
+    margin: 30px 0;
+}
+
+.footer2_ul1{
+    margin-left: 80px;
+}
+
+.footer2 ul li a{
+    color: black;
+}
 
 /* Responsiveness */
 
-@media only screen and (max-width: 992px){
+/* @media only screen and (max-width: 992px){
     .first_nav{
         width: 100vw;
     }
@@ -624,7 +761,7 @@ header{
     }
 
 
-}
+} */
 
 
 
