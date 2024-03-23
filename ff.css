@@ -1,0 +1,131 @@
+/* 
+@media only screen and (min-width: 992px){
+    
+    .first_nav{
+        width: 80vw;
+        height: 7vh;
+        display: flex;
+        justify-content: space-between;
+        border-left: none !important;
+        border-right: none !important;
+    }
+    
+    .inside_first_nav{
+        width: auto;
+        display: flex;
+        align-items: space;
+        font-size: 0.8rem;
+    }
+
+    
+    .navbar{
+        width: 80vw;
+        height: 8vh;
+        background-color: transparent !important;
+    }
+    
+    .navbar-brand{
+        font-family: 'Kanit', sans-serif;
+        color: #081f89ff;
+    }
+    
+    .nav-link{
+        font-weight: 600;
+        margin-left: 15px;
+        font-size: 0.9rem;
+    }
+    
+    .nav-link:hover{
+        border-bottom: 2px solid #081f89ff;
+        color: #081f89ff;
+    
+    }
+    
+    .nav-link:active{
+        color: #081f89ff;
+    }
+    
+    .home{
+        margin-left:180px;
+    }
+    
+    .apply_now{
+        margin-left: 190px;
+        width: 150px;
+    }
+    
+    .apply_now:hover{
+        background-color: transparent !important;
+        border: 1px solid #081f89ff;
+        color: inherit !important;
+    }
+    
+    .inside_first_nav_link{
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    .inside_first_nav_link:hover{
+        color: #081f89ff;
+    }
+    
+    .banner{
+        margin-top: 15vh;
+        height: 65vh;
+        background-image: url(/images/clock-2696234_1280.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .banner_box{
+        margin-right: 200px;
+        height: 50vh;
+        width: 30vw;
+    }
+    
+    .banner_button{
+        background-color: #081f89ff;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    .banner_button:hover{
+        border: 1px solid #081f89ff;
+    }
+    
+    .banner2{
+        height: 30vh;
+        width: 60vw;
+        margin:auto;
+        position: relative;
+        top: -80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+    
+    .banner2_card{
+        height: 25vh;
+        width:15vw;
+        background: white;
+        border-radius: 10px;
+        transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+        box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                 0 0  0 2px rgb(190, 190, 190),
+                 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #081f89ff;
+        gap: 10px;
+        z-index: 0;
+        text-decoration: none !important;
+        
+    }
+
+} */

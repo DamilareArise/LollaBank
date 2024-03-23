@@ -1,0 +1,769 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Kanit:ital,wght@0,500;0,600;1,300&family=Sedgwick+Ave+Display&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 15vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px;
+    z-index: 10;
+    
+}
+
+.first_nav{
+    width: 80vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.inside_first_nav{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    
+}
+
+.navbar{
+    width: 80vw;
+    height: 8vh;
+}
+
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    color: #081f89ff;
+}
+
+.nav-link{
+    font-weight: 600;
+    margin-left: 15px;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid #081f89ff;
+    color: #081f89ff;
+
+}
+
+.nav-link:active{
+    color: #081f89ff !important;
+}
+
+.home{
+    margin-left:150px;
+}
+
+.apply_now{
+    margin-left: 170px;
+    width: 150px;
+}
+
+.apply_now:hover{
+    background-color: transparent !important;
+    border: 1px solid #081f89ff;
+    color: inherit !important;
+}
+
+
+.inside_first_nav_link{
+    text-decoration: none;
+    color: inherit;
+    margin-left: 20px;
+}
+
+.inside_first_nav_link:hover{
+    color: #081f89ff;
+}
+
+.banner{
+    margin-top: 15vh;
+    height: 65vh;
+    background-image: url(/images/clock-2696234_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: right;
+}
+
+.banner_box{
+    margin-right: 200px;
+    height: 50vh;
+    width: 30vw;
+}
+
+.banner_button{
+    background-color: #081f89ff;
+    color: white;
+    margin-top: 20px;
+}
+
+.banner_button:hover{
+    border: 1px solid #081f89ff;
+}
+
+.banner2{
+    height: 30vh;
+    width: 60vw;
+    margin:auto;
+    position: relative;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner2_card{
+    height: 25vh;
+    width:15vw;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(190, 190, 190),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #081f89ff;
+    gap: 10px;
+    z-index: 0;
+    text-decoration: none !important;
+    
+}
+
+
+.banner2_card:hover{
+    background-color: #081f89ff;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px #081f89ff,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    color: white;
+    border-radius: 15px;
+}
+
+.AboutUs {
+    height:auto;
+    margin-top: -80px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-bottom: 130px;
+    padding-top: 50px;
+    
+}
+
+.AboutUs_box{
+    height: 45vh;
+    width: 40vw;
+    display: flex;
+    position: relative;
+    padding: 10px; 
+}
+
+
+.AboutUs_img1{
+    width: 250px; 
+    height: 230px;
+    border-radius: 5PX;
+    
+}
+
+.AboutUs_img2{
+    width: 200px; 
+    height: 270px;
+    position: relative;
+    top: 60px;
+    left: -40px;
+    border-radius: 5PX;
+    
+}
+
+.AboutUs_info1{
+    position: absolute;
+    left: 300px;
+    height: 50px;
+    width: 90px;
+    background-color: #081f89ff; 
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.AboutUs_info2{
+    position: absolute;
+    height: 50px;
+    width: 90px;
+    background-color: #081f89ff;
+    left: -170px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.AboutUs_btn{
+    background-color: #081f89ff;
+    width: 70px;
+    color: white;
+    transition: width 0.5s ease;
+}
+
+.AboutUs_btn:hover{
+    border: 1px solid #081f89ff;
+    color: black;
+    width: 100px;
+    
+}
+
+.services{
+    height: auto;
+}
+
+.services_box{
+    height: 70vh;
+    width: 50vw;
+}
+
+.services_box_div1{
+    width: 400px;
+    height: auto;
+    text-align: center;
+}
+
+.services_box_div2{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+._box_div2_card{
+    height: 180px;
+    width:200px;
+    background: white;
+    border-radius: 10px;
+    transition: border-radius 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(190, 190, 190),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+}
+
+._box_div2_card:hover{
+    background-color: #081f89ff;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px #081f89ff,
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+    color: white !important;
+    border-radius: 15px;
+    
+}
+
+._box_div2_card_icon{
+    color: #081f89ff;
+}
+
+._box_div2_card_icon:hover{
+    color: white;
+}
+
+
+.pricing_box_div2_card{
+    height: auto;
+    width:200px;
+    background: rgb(219, 229, 230);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding: 20px;
+    font-size: 0.7rem;
+}
+.pricing{
+    gap: 5px;
+}
+
+.Book_now{
+    color: white;
+    background-color: #081f89ff;
+    font-size: 0.8rem;
+}
+
+.pricing_box_div2_card:hover{ 
+    
+    background-color: #081f89ff;
+    color: white;  
+    transform: scale(1.1, 1.1) !important;
+    z-index: 1;
+}
+
+.pricing_box_div2_card:hover .Book_now {
+    background-color: white;
+    color: black;
+}
+
+.news_card{
+    padding: 0px;
+    gap: 15px;
+}
+
+.news_card:hover{
+    background-color: #081f89ff;
+    color: white;  
+    transform: none !important;
+    
+}
+
+.read_more{
+    width: 100px;
+    background-color: transparent;
+    color: black;
+    padding: 8px;
+    margin-bottom: 20px !important;
+
+}
+
+.form{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form_div1{
+    width: 550px ;
+    height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_div2{
+    width: 50px;
+    height: 50vh;
+    background-color: whitesmoke;
+}
+
+.form_img{
+    height: 42vh;
+    width: 240px;
+    position: absolute;
+    top: 23px;
+    left: 800px;
+
+}
+
+.play{
+    width: 60px;
+    background-color: #081f89ff;
+    color:  white ; 
+    position: absolute;
+    top: 230px;
+    left: 970px;
+    transition: width 0.5s ease;
+    text-decoration: none;
+}
+
+.play:hover{
+    width: 62px;
+    background-color: white;
+    color: #081f89ff;
+}
+
+.form_sub_div{
+    height: 250px;
+    width: 400px;
+    font-size: 0.8rem;
+}
+
+.form-control1{
+    background-color: transparent !important;
+    border: none !important;
+    font-size: 0.8rem;
+    border-bottom: 1px solid !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    padding-bottom:5px ;
+}
+
+.form-control1:hover{
+    color: #081f89ff;
+}
+
+.submit{
+  background-color: #081f89ff;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.submit:hover{
+    border:1px solid #081f89ff !important;
+}
+
+.footer{
+    height: auto;
+    background-color: #081f89ff;
+    justify-content: space-around;
+    
+}
+
+.footer2{
+    height: auto;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    font-size: 0.75rem;
+    margin: 30px 0;
+    
+}
+
+li a{
+    text-decoration:  none;
+    color: white;
+}
+
+.app{
+    width: 250px;
+    font-size: 0.75rem;
+    margin: 30px 0;
+}
+
+.footer2_ul1{
+    margin-left: 80px;
+}
+
+.footer2 ul li a{
+    color: black;
+}
+
+/* Responsiveness */
+
+/* @media only screen and (max-width: 992px){
+    .first_nav{
+        width: 100vw;
+    }
+    
+    .inside_first_nav{
+        width: 50vw;
+        display: flex;
+        align-items: center;
+        font-size: 0.8rem;
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .inside_first_nav:nth-child(2){
+        padding-left: 120px;
+    }
+  
+    .navbar{
+        width: 100vw;
+    }
+
+    .navbar-nav{
+        background-color: white !important;
+    }
+
+    .home{
+        margin-left: 12px;
+    }
+    
+    .apply_now{
+        margin-left: 0em;
+    }
+    
+    .banner{
+        margin-top: 15vh;
+        height: 40vh;
+        display: flex;
+        align-items:center;
+        justify-content: flex-end;
+    }
+    
+    .banner_box{
+    
+        margin-right: 0;
+        height: 30vh;
+        width: 50vw;
+    
+    }
+
+    .banner2{
+        height: 30vh;
+        width: 80vw;
+        top: -160px;
+        gap: 10px;
+    }
+    
+    .banner2_card{
+        height: 15vh;
+        width: 40vw;
+    }
+
+    .AboutUs {
+        height: auto;
+        margin-top: -170px;
+        align-items: normal;
+        justify-content: center;
+        padding-bottom: 0px;
+        padding-top: 30px;
+        
+    }
+
+    
+    .AboutUs_box{
+        height: 45vh;
+        width: 100vw;
+        margin: auto;
+        padding: 0 10px; 
+    }
+    
+    
+    
+    .AboutUs_img1{
+        width: 200px; 
+        height: 200px;
+        
+    }
+    
+    .AboutUs_img2{
+        width: 200px; 
+        height: 220px;
+        top: 60px;
+        left: -40px;
+        
+    }
+    
+    .AboutUs_info1{
+        left: 220px;
+    }
+    
+    .AboutUs_info2{
+        left: -150px;
+    }
+
+    .services{
+        height: auto;
+    }
+    
+    .services_box{
+        height: auto;
+        width: 100vw;
+        padding: 20px;
+    }
+    
+    .services_box_div1{
+        width: 90vw;
+        margin-bottom: 25px !important;
+        margin-top: -15px !important;
+    }
+    
+    .services_box_div2{
+        gap: 15px;
+    }
+    
+    ._box_div2_card{
+        height: 180px;
+        width:180px;
+    }
+     
+    .pricing_box_div2_card{
+        height: auto;
+        width:180px;
+
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        height: 10vh;
+        
+    }
+
+
+    .first_nav{
+        display:none;
+    }
+
+
+    .navbar{
+        width: 100vw;
+        
+    }
+
+    .navbar-nav{
+        background-color: white !important;
+    }
+
+    .home{
+        margin-left: 12px;
+    }
+    
+    .apply_now{
+        margin-left: 0em;
+    }
+    
+    .banner{
+        margin-top: 15vh;
+        height: 50vh;
+        display: flex;
+        align-items:normal;
+        justify-content: flex-end;
+    }
+    
+    .banner_box{
+        margin-right: 0px;
+        height: 40vh;
+        width: 50vw;
+        padding:20px 0px;
+        margin-top:0px;
+        
+    }
+    
+    .banner_button{
+        background-color: #081f89ff;
+        color: white;
+        margin-top: 15px;
+    }
+    
+    .banner_button:hover{
+        border: 1px solid #081f89ff;
+    }
+
+    #banner_text1{
+        font-size: 0.7rem !important;
+    }
+
+    #banner_text2{
+        font-size: 1.3rem !important;
+    }
+    
+    .banner2{
+        height: 30vh;
+        width: 100vw;
+        top: -90px;
+        gap: 10px;
+    }
+    
+    .banner2_card{
+        height: 15vh;
+        width: 40vw;
+        font-size: 0.6rem;
+    }
+
+    .AboutUs {
+        height: auto;
+        margin-top: -150px;
+        align-items: normal;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 180px;
+        padding-top: 30px;
+        
+    }
+
+    
+    .AboutUs_box{
+        height: 45vh;
+        width: 100vw;
+        margin: auto;
+        padding: 0 40px; 
+    }
+    
+    .AboutUs_box:nth-child(2){
+        margin-top: -70px;
+    }
+    
+    .AboutUs_img1{
+        width: 150px; 
+        height: 150px;
+        
+    }
+    
+    .AboutUs_img2{
+        width: 150px; 
+        height: 170px;
+        top: 60px;
+        left: -40px;
+        
+    }
+    
+    .AboutUs_info1{
+        left: 180px;
+    }
+    
+    .AboutUs_info2{
+        left: -150px;
+    }
+
+    .services{
+        height: auto;
+    }
+    
+    .services_box{
+        height: auto;
+        width: 100vw;
+    }
+    
+    .services_box_div1{
+        width: 90vw;
+        margin-bottom: 25px !important;
+        margin-top: -15px !important;
+    }
+    
+    .services_box_div2{
+        gap: 15px;
+    }
+    
+    ._box_div2_card{
+        height: 180px;
+        width:152px;
+    }
+     
+    .pricing_box_div2_card{
+        height: auto;
+        width:152px;
+
+    }
+
+
+} */
+
+
+
+
+
